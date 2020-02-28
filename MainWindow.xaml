@@ -1,0 +1,38 @@
+﻿<Window x:Class="Assignment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Assignment"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label>Computer Parts</Label>
+        <Button x:Name="btnRun" Click="BtnRun_Click">View Parts</Button>
+        <Label x:Name="lblOutput"></Label>
+        <Label>Phone Parts</Label>
+        <Button x:Name="brnRun2" Click="BrnRun2_Click">View Parts</Button>
+        <Label>MotherBoard website Listing</Label>
+        <Button x:Name="btnRun3" Click="BtnRun3_Click">View Website</Button>
+        <Label>CPU Website Listing</Label>
+        <Button x:Name="btnRun4" Click="BtnRun4_Click">View Website</Button>
+        <Label>CPU Cooler</Label>
+        <Button x:Name="btnRun5" Click="BtnRun5_Click">View Website</Button>
+        <Label>GPU</Label>
+        <Button x:Name="btnRun6" Click="BtnRun6_Click">View Website</Button>
+        <Label>PowerSupply</Label>
+        <Button x:Name="btnRun7" Click="BtnRun7_Click">View Website</Button>
+        <Label>RAM</Label>
+        <Button x:Name="btnRun8" Click="BtnRun8_Click">View Website</Button>
+        <Label>Storage</Label>
+        <Button x:Name="btnRun9" Click="BtnRun9_Click">View Website</Button>
+        <Label>Optical Drive</Label>
+        <Button x:Name="btnRun1A" Click="BtnRun1A_Click">View Website</Button>
+        <Label>Battery</Label>
+        <Button x:Name="btnRun1B" Click="BtnRun1B_Click">View Website</Button>
+        <Label>Power Cable</Label>
+        <Button x:Name="btnRun1C" Click="BtnRun1C_Click">View Website</Button>
+        <Label>Power Box</Label>
+        <Button x:Name="brnRun1D" Click="BrnRun1D_Click">View Website</Button>
+    </StackPanel>
+</Window>
